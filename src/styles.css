@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #4a7aff;    
-    --background: #ecffe4;      
-    --text-color: #2c3e50;       
+    --primary-color: #ce725f ;    
+    --background: #95ce5f;      
+    --text-color: #404326;       
   }
   
   body {
@@ -18,13 +18,12 @@
   .button {
     padding: 8px 16px;
     border-radius: 6px;
-    border: 1px solid #dee2e6;
+    border: 1px solid #d100ff;
     background: white;
-    cursor: pointer;
   }
   .input-field {
     padding: 8px 12px;
-    border: 1px solid #ced4da;
+    border: 1px solid #c8d7a9;
     border-radius: 6px;
     width: 100%;
     margin-top: 4px;
