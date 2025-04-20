@@ -1,0 +1,10 @@
+<div>
+  <h1>Лабораторная работа 3</h1>
+  <nav>
+    <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">страница 1</a>
+    <a routerLink="/page2" routerLinkActive="active">страница 2</a>
+    <a routerLink="/page3">страница 3</a>
+    <a [routerLink]="['show-name', 'Данила']" routerLinkActive="active">имя</a>
+  </nav>
+  <router-outlet></router-outlet>
+</div>
